@@ -1,0 +1,114 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Index (Home) Page Styles */
+#searchInput {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.favorite-btn {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.favorite-btn:hover {
+    background-color: #1976D2;
+}
+
+/* Favorites Page Styles */
+#favoriteMealsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#favoriteMealsList li {
+    width: 300px;
+    margin: 0.5rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+#favoriteMealsList img {
+    max-width: 100%;
+    height: auto;
+}
+
+.remove-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.remove-btn:hover {
+    background-color: #d32f2f;
+}
+header a {
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make it bold */
+    padding: 0.5rem 1rem; /* Add padding to make it clickable */
+    background-color: #2196F3; /* Background color */
+    border-radius: 4px; /* Rounded corners */
+    margin-left: 1rem; /* Adjust spacing from the heading */
+}
+
+/* On hover, change the background color */
+header a:hover {
+    background-color: #1976D2;
+}
